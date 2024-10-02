@@ -90,3 +90,13 @@ table, th, td {
 .avatar-img:hover{
     transform: rotate(180deg);
 }
+.rotate {
+    animation: spin 3s linear infinite; /* Анімація обертання */
+}
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg) scale(1); }
+    50% { transform: rotate(360deg) scale(2); } 
+    100% { transform: rotate(720deg) scale(1); } 
+}

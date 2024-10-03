@@ -1,8 +1,7 @@
 const button=document.querySelector('button')
 let rotating=false;
-button.addEventListener('click',(e)=>{
+button.addEventListener('click',()=>{
     const img_avata=document.querySelector('.avatar-img')
-    console.log(img_avata)
     if(!rotating){
         img_avata.classList.add("rotate")
         document.querySelector(".js-h5").innerHTML="НЕ МУЧТЕ КОТА НАЖМІТЬ ЗНОВУ НА КНОПКУ БУДЬ ЛАСКА" 

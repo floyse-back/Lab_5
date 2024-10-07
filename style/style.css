@@ -100,3 +100,6 @@ table, th, td {
     50% { transform: rotate(360deg) scale(20); } 
     100% { transform: rotate(720deg) scale(1); } 
 }
+li{
+    list-style-type: none;
+}
